@@ -1,0 +1,21 @@
+.DS_Store
+
+# Xcode / SwiftPM
+DerivedData/
+.build/
+.swiftpm/
+*.xcresult
+xcuserdata/
+*.xcuserstate
+
+# 渲染产物：体积大、可由文本 + 脚本重建。只提交清单（manifest）与脚本，不提交音频
+renders/
+*.wav
+*.caf
+*.m4a
+
+# 参考音与真人录音：涉授权，不进仓库
+reference-voice/
+
+# 本地实验数据
+.scratch/*/assets/
